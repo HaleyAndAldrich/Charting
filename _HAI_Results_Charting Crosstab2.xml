@@ -1,0 +1,79 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:tabOption="0" msprop:excelTemplate="Cooper_Drum_Chart_Format v0.8a.xls">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="columnHeaders">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Column" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                <xs:element name="Caption" type="xs:string" minOccurs="0" />
+                <xs:element name="Sort" type="xs:string" minOccurs="0" />
+                <xs:element name="Display" type="xs:string" default="Default" minOccurs="0" />
+                <xs:element name="_AutoNumber" msdata:AutoIncrement="true" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="rowHeaders">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Column" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                <xs:element name="Caption" type="xs:string" minOccurs="0" />
+                <xs:element name="Sort" type="xs:string" minOccurs="0" />
+                <xs:element name="Display" type="xs:string" default="Default" minOccurs="0" />
+                <xs:element name="Aggregate" type="xs:string" minOccurs="0" />
+                <xs:element name="_AutoNumber" msdata:AutoIncrement="true" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="tabbedData">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Column" type="xs:string" minOccurs="0" />
+                <xs:element name="Caption" type="xs:string" minOccurs="0" />
+                <xs:element name="Aggregate" type="xs:string" minOccurs="0" />
+                <xs:element name="Format" type="xs:string" minOccurs="0" />
+                <xs:element name="Null" type="xs:string" minOccurs="0" />
+                <xs:element name="Referenced_x0020_Aggregate" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <columnHeaders>
+    <Column>loc_report_order</Column>
+    <Display>Default</Display>
+    <_AutoNumber>0</_AutoNumber>
+  </columnHeaders>
+  <columnHeaders>
+    <Column>sys_loc_code</Column>
+    <Display>Default</Display>
+    <_AutoNumber>1</_AutoNumber>
+  </columnHeaders>
+  <columnHeaders>
+    <Column>chemical_name</Column>
+    <Display>Default</Display>
+    <_AutoNumber>2</_AutoNumber>
+  </columnHeaders>
+  <columnHeaders>
+    <Column>Report_Unit</Column>
+    <Display>Default</Display>
+    <_AutoNumber>3</_AutoNumber>
+  </columnHeaders>
+  <rowHeaders>
+    <Column>sample_date</Column>
+    <Display>Default</Display>
+    <_AutoNumber>13</_AutoNumber>
+  </rowHeaders>
+  <tabbedData>
+    <Column>Result_detected</Column>
+  </tabbedData>
+  <tabbedData>
+    <Column>Result_non_detected</Column>
+  </tabbedData>
+  <tabbedData>
+    <Column>Result_All</Column>
+  </tabbedData>
+</NewDataSet>
